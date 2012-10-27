@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+# Service type: Produces output
+
+$KCODE = 'u'
+
+puts `/usr/local/bin/tmux save-buffer -`

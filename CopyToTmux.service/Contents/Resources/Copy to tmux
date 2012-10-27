@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+# Service type: Produces output
+
+$KCODE = 'u'
+
+gets `/usr/local/bin/tmux load-buffer -`
